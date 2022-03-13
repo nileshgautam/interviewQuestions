@@ -70,9 +70,7 @@ function fibonacci(num) {
 
 }
 
-console.log(fibonacci(5))
-console.log(fib(5))
-
+// console.log(fibonacci(5))
 // console.log(recursiveRane(5));
 // console.log(reverse('Anil'));
 // console.log(poa([5, 10,]));

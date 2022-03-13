@@ -58,17 +58,17 @@ function recursiveRane(num) {
     return num + recursiveRane(num - 1);
 }
 
+/**
+ * This function is used to return fibonacci of given number
+ * 
+ * @param {*} num 
+ * @returns 
+ */
 function fibonacci(num) {
     if (num <= 2) return 1;
     return fibonacci(num - 1) + fibonacci(num - 2);
 
 }
-
-function fib(n){
-    if (n <= 2) return 1;
-    return fib(n-1) + fib(n-2);
-}
-
 
 console.log(fibonacci(5))
 console.log(fib(5))
